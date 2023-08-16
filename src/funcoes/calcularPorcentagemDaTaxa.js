@@ -1,4 +1,5 @@
 export const calcularPorcentagemDaTaxa = (taxa) => {
+
   switch (taxa.tipo) {
 
     case 'acrescimo':
@@ -6,9 +7,7 @@ export const calcularPorcentagemDaTaxa = (taxa) => {
 
     case 'desconto':
       return (1 - calcularPorcentagem(taxa.valor))
-
-    default:
-      return 1;
+      
   }
 }
 

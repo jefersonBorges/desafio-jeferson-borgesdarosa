@@ -1,4 +1,3 @@
 export const formatarValorDoPedido = (valorDoPedido) => {
-
   return new Intl.NumberFormat("pt-BR", {style: "currency" , currency: 'BRL'}).format(valorDoPedido)
 }

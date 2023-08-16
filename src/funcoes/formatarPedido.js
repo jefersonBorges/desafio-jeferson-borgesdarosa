@@ -10,6 +10,6 @@ export const formatarPedido = (arrayStringsDoPedido) => {
     }
     
   })
-
+  
   return itens
 }
